@@ -1,0 +1,31 @@
+{
+  "name": "gch-api-backend",
+  "version": "1.0.0",
+  "description": "Game Characters API - Final Fantasy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config.js index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Dea, Francois and Steffani",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.4.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "concurrently": "^7.4.0",
+    "kill-port": "^1.6.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "17.4.0"
+  }
+}
